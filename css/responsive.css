@@ -27,6 +27,13 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .footer{
+        padding-left: 10px;
+        padding-right: 10px;
+       
+        justify-content: space-between;
+        align-items: center;
+    }
 
     .service-section .service-item-inner:hover h3, p {
         padding: 0 15px;

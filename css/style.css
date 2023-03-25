@@ -74,7 +74,31 @@ body.stop-scrolling{
 body::-webkit-scrollbar {
     width: 11px;
 }
-
+.footer{
+    padding-left: 100px;
+    padding-right: 120px;
+    height: 50px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.back2-top{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 50px;
+}
+.back2-top a{
+    
+    
+    font-size: 16px;
+    text-align: center;
+    color: var(--text-black-600);
+}
 html {
     scroll-behavior: smooth;
     --scrollbarBG: transparent;
