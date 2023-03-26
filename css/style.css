@@ -354,7 +354,7 @@ img{
 .section.hide{
     display: none;
 }
-
+/*
 .preloader{
     position: fixed;
     left: 0;
@@ -375,12 +375,12 @@ img{
 
 .preloader .box{
     width: 65px;
-    /* border: 1px solid red; */
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+  
 .preloader .box div{
     height: 15px;
     width: 15px;
@@ -405,7 +405,7 @@ img{
         transform: translateY(-30px);
     }
 }
-
+*/
 #auto-typing-animation p span.typed-text {
     font-weight: normal;
     color: var(--skin-color);
